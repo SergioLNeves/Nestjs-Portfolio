@@ -19,10 +19,10 @@ import { PortfolioModule } from './portfolio/portfolio.module';
         //host: 'localhost',
         //port: 3306,
         //username:'root',
-        //password: 'root',
-        //database: 'db_portfolio',
-        //entities: [Postagem,Usuario,Titulo,Portfolio],
-       //synchronize: true
+       // password: 'root',
+      //  database: 'db_portfolio',
+      //  entities: [Postagem,Usuario,Titulo,Portfolio],
+      // synchronize: true
      //}),  
 
        type:'postgres',
