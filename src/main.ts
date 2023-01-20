@@ -7,8 +7,8 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-  .setTitle('Portifolio')
-  .setDescription('Esse é o deploy do meu portifolio utilizando nestjs para a criação da API')
+  .setTitle('Portfolio')
+  .setDescription('Esse é o deploy do meu portfolio utilizando nestjs para a criação da API')
   .setContact("Sérgio Luiz","https://www.linkedin.com/in/sergiolneves/","sergioluiz852@gmail.com")
   .setVersion('1.0')
   .addBearerAuth()
